@@ -1,11 +1,10 @@
 package day_one;
 
-import java.io.Console;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Solution {
+public class SolutionOne {
     public int solve() throws FileNotFoundException {
         File data = new File("data/day_one/input.txt");
         Scanner sc = new Scanner(data);
@@ -24,7 +23,7 @@ public class Solution {
     }
 
     public static void main(String[] args) throws Exception {
-        Solution s = new Solution();
+        SolutionOne s = new SolutionOne();
         System.out.println(s.solve());
     }
 }
